@@ -1,0 +1,21 @@
+.page {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .page {
+width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .page {
+width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768x) {
+    .page {
+width: 100%;
+    }
+}

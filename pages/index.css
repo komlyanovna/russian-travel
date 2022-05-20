@@ -1,4 +1,3 @@
-
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -16,3 +15,14 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../blocks/font/Inter-Regular.woff);
+    src: url(../blocks/font/Inter-Regular.woff2);
+}
+

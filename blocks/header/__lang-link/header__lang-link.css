@@ -19,40 +19,6 @@
     margin-right: 0;
     width: 29px;
     height: 28px;
+    text-decoration: none;
 }
 
-@media (max-width: 1024px) {
-    .header__lang-link {
-        margin-left: 675px;
-    }
-}
-
-@media (max-width: 768px) {
-.header__lang-link {
-    margin-left: 467px;
-}
-}
-
-@media (max-width: 320px) {
-    .header__lang-link {
-        margin-left: 84px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 20px;
-        text-align: right;
-        text-decoration-line: underline;
-        width: 22px;
-        height: 20px;
-        
-    }
-    }
-
-    @media (max-width: 320px) {
-        .header__lang-link:last-child {
-            width: 22px;
-            height: 20px;
-            margin-left: 18px;
-        }
-    }

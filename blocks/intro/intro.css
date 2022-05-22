@@ -1,6 +1,6 @@
 .intro {
     width: 690px;
-    height: 429px;
+    min-height: 429px;
     margin: 114px 442px auto 100px;
     border: 1px solid orange;
     display: flex;

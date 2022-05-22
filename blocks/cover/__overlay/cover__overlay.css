@@ -1,0 +1,5 @@
+.cover__overlay:hover {
+    max-width: 1184px;
+    opacity: 0.3;
+    background: rgba(42, 44, 47, 1);
+}

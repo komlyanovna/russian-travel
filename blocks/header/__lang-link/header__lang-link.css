@@ -1,14 +1,11 @@
 .header__lang-link {
     width: 30px;
     height: 28px;
-    margin-top: 18px;
-    margin-left: 931px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 24px;
-    text-align: right;
+    line-height: 1;
     text-decoration-line: underline;
     border: 1px solid blue;
     color: #FFFFFF;
@@ -16,7 +13,6 @@
 
 .header__lang-link:last-child {
     margin-left: 18px;
-    margin-right: 0;
     width: 29px;
     height: 28px;
     text-decoration: none;

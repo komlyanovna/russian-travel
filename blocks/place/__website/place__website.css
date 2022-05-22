@@ -1,6 +1,6 @@
-.place__webcite {
+.place__website {
     width: 456px;
     height: 46px;
-    margin-top: 106px;
-    border: 1px solid red;
+    grid-row: 1;
+    grid-column: 2;
 }

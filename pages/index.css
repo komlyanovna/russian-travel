@@ -2,6 +2,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/header/link/link.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
 
@@ -25,12 +26,29 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__pharagraph/place__pharagraph.css);
+@import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__url-heading_link/place__url-heading_link.css);
 
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__text/cover__text.css);
+    
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/copyright/copyright.css);
+@import url(../blocks/footer/__author/footer__author.css);
 
 @font-face {
     font-family: 'Inter';
-    src: url(../blocks/font/Inter-Regular.woff);
-    src: url(../blocks/font/Inter-Regular.woff2);
+    src: url(../blocks/fonts/Inter-Bold.woff);
+    src: url(../blocks/fonts/Inter-Bold.woff2);
 }
 
+@font-face {
+    font-family: 'Arial';
+}

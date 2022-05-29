@@ -1,9 +1,0 @@
-.cover__text {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 560px;
-}

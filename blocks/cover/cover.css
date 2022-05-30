@@ -1,0 +1,29 @@
+.cover {
+    max-width: 1184px;
+    margin-top: 92px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    opacity: 0.9;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .cover {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        max-width: 768px;
+        margin: 90px 0 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .cover {
+        min-width: 320px;
+        margin: 66px 0 0 0;
+    }
+}
+

@@ -30,7 +30,6 @@
         flex-direction: column;
         flex-wrap: nowrap;
         margin: 64px 0 0 16px;
-
+        gap: 0;
     }
 }
-

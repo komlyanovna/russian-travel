@@ -12,7 +12,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .footer__navigation {
-        margin: 0 24px 24px;
+        margin: 0;
 
     }
 }

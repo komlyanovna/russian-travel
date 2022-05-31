@@ -5,9 +5,9 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
     text-decoration: none;
     z-index: 0;
+    min-height: 740px;
 }
 
 .cover__overlay:before {

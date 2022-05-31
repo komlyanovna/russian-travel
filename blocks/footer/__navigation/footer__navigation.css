@@ -6,7 +6,6 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
     .footer__navigation {
-        flex-direction: row;
         align-items: center;
     }
 }
@@ -20,7 +19,6 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
     .footer__navigation {
-        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 32px;

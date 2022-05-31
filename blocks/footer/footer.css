@@ -3,7 +3,7 @@
     margin: 92px 48px 24px 48px;
     color: rgba(255, 255, 255, 1);
     display: grid;
-    grid-template-columns: 50px 57px 94px 86px 106px repeat(1, 1fr);
+    grid-template-columns: max-content repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 18px;
 }
@@ -17,7 +17,9 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     .footer {
         min-width: 720px;
-        margin: 88px 24px 24px;
+        margin: 88px 0 24px;
+        display: flex;
+        justify-content: space-between;
     }
 }
 

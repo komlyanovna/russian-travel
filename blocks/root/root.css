@@ -8,7 +8,7 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    font-family: 'inter', 'Arial';
+    font-family: 'inter', 'Arial', 'Hevletica', 'sans-serif';
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {

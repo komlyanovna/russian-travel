@@ -4,14 +4,13 @@
     font-size: 14px;
     line-height: 1;
     grid-column: 7;
+    margin: 0;
 }
-
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .footer__copyright {
-        margin: 0;
+        margin-right: 24px;
     }
 }
-
 @media (min-width: 320px) and (max-width: 767px) {
     .footer__copyright {
         text-align: start;

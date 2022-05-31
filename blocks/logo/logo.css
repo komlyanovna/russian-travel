@@ -2,18 +2,6 @@
     width: 176px;
 }
 
-@media (max-width: 1280px) and (min-width: 1024px) {
-    .logo {
-        width: 176px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .logo {
-        width: 176px;
-    }
-}
-
 @media (min-width: 320px) and (max-width: 767px) {
     .logo {
         width: 142px;

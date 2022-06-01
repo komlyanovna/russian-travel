@@ -10,23 +10,23 @@
     position: absolute;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
     .cover__background {
-        width: 1024px;
+        width: 100%;
         min-height: 640px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
     .cover__background {
-        width: 768px;
+        width: 100%;
         min-height: 480px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .cover__background {
-        width: 320px;
+        width: 100%;
         min-height: 200px;
     }
 }

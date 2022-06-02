@@ -12,32 +12,33 @@
     margin-top: 48px;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .place__pharagraph {
         max-width: 28.5em;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .place__pharagraph {
-        min-width: 352px;
+        width: 352px;
         font-size: 16px;
         margin-top: 48px;
     }
-    
+
     .place__pharagraph:last-child {
         margin-top: 25px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .place__pharagraph {
-    margin-top: 25px;
-    margin-left: 16px;
-    margin-right: 16px;
-    line-height: 1.6;
+        width: 288px;
+        margin-top: 25px;
+        margin-left: 16px;
+        margin-right: 16px;
+        line-height: 1.6;
     }
-    
+
     .place__pharagraph:first-child {
         margin-top: 32px;
     }

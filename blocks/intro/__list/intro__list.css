@@ -9,13 +9,13 @@
     margin: 33px 0 0;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .intro__list {
-        min-width: 720px;
+        width: 720px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .intro__list {
         width: 288px;
     }

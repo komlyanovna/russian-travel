@@ -1,23 +1,24 @@
 .lead__title {
-    width: 720px;
-    margin: 0 132px;
+    max-width: 720px;
+    margin: 0 auto;
     color: rgba(255, 255, 255, 1);
     font-weight: 900;
     font-size: 96px;
-    line-height: 1;
+    line-height: 1.1;
     text-align: center;
+    align-self: center;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .lead__title {
-        margin: 0 24px;
+        margin: 0 auto;
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .lead__title {
         width: 288px;
-        margin: 48px 16px 0;
+        margin: 48px auto 0;
         font-size: 40px;
         line-height: 1.1;
         display: flex;
@@ -25,4 +26,3 @@
         justify-content: center;
     }
 }
-

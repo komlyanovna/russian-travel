@@ -4,24 +4,25 @@
     gap: 18px;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .footer__navigation {
         align-items: center;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .footer__navigation {
         margin: 0;
 
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .footer__navigation {
         flex-direction: column;
         flex-wrap: wrap;
         gap: 32px;
+        align-items: flex-start;
     }
 }
 

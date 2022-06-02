@@ -1,5 +1,7 @@
 .root {
     max-width: 1280px;
+    width: 100%;
+    min-width: 320px;
     margin: 0 auto 24px;
     padding: 0;
     background-color: rgba(42, 44, 47, 1);
@@ -11,23 +13,22 @@
     font-family: 'inter', 'Arial', 'Hevletica', 'sans-serif';
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .root {
-        max-width: 1024px;
         margin: auto;
         padding: 0;
     }
 }
 
-@media (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1023px) {
     .root {
-        max-width: 768px;
+        width: 768px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .root {
-        max-width: 320px;
+        width: 320px;
     }
 }
 

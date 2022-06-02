@@ -1,6 +1,6 @@
 .footer {
     max-width: 1184px;
-    margin: 92px 48px 24px 48px;
+    padding: 92px 48px 24px 48px;
     color: rgba(255, 255, 255, 1);
     display: grid;
     grid-template-columns: max-content repeat(1, 1fr);
@@ -10,15 +10,13 @@
 
 @media screen and (max-width: 1279px) {
     .footer {
-        width: 928px;
-        margin: 92px auto 42px;
+        padding: 92px 48px 42px 48px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .footer {
-        width: 720px;
-        margin: 88px auto 24px;
+        padding: 88px 24px 24px 24px;
         display: flex;
         justify-content: space-between;
     }
@@ -30,7 +28,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        margin: 64px 0 0 16px;
+        padding: 64px 0 0 16px;
         gap: 0;
     }
 }

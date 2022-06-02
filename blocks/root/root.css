@@ -22,13 +22,11 @@
 
 @media screen and (max-width: 1023px) {
     .root {
-        width: 768px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .root {
-        width: 320px;
     }
 }
 

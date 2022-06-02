@@ -21,12 +21,12 @@
 
 @media screen and (max-width: 1023px) {
     .cover__background {
-        width: 768px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover__background {
-        width: 320px;
+        width: 100%;
     }
 }

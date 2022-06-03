@@ -6,10 +6,21 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead {
-        width: 100%;
+        width: 928px;
         margin: 48px auto 0;
     }
 }
 
+@media screen and (max-width: 1023px) {
+    .lead {
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead {
+        margin-top: 48px;
+    }
+}
